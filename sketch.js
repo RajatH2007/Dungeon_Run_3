@@ -16,8 +16,8 @@ function preload(){
   bg_Img = loadImage("./Assets/Background_01.png");
   kngt_Walk = loadAnimation("./Knight/walk1.png", "./Knight/walk2.png", "./Knight/walk3.png", "./Knight/walk4.png", "./Knight/walk5.png", 
   "./Knight/walk6.png");
-  kngt_Jump = loadAnimation("./Knight/jump1.png", "./Knight/jump2.png", "./Knight/jump3.png", "./Knight/jump4.png", "./Knight/jump5.png", 
-  "./Knight/jump6.png","./Knight/jump7.png");
+  /*kngt_Jump = loadAnimation("./Knight/jump1.png", "./Knight/jump2.png", "./Knight/jump3.png", "./Knight/jump4.png", "./Knight/jump5.png", 
+  "./Knight/jump6.png","./Knight/jump7.png");*/
   plt1 = loadImage("./Assets/Ground_Merged.png");
   plt2 = loadImage("./Assets/Ground.png");
   plt3 = loadImage("./Assets/Ground_i.png");
@@ -62,7 +62,7 @@ function draw() {
     knight.x -=5;
   }
   if(keyDown(UP_ARROW)){
-    knight.addAnimation("jump", kngt_Jump);
+    //knight.addAnimation("jump", kngt_Jump);
     knight.velocityY -=2;
   }
   knight.velocityY = knight.velocityY+0.8;
