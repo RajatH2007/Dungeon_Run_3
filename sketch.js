@@ -34,7 +34,7 @@ function preload(){
   dragonDeath = loadAnimation("./Dragon/Death1.png", "./Dragon/Death2.png", "./Dragon/Death3.png", "./Dragon/Death4.png", "./Dragon/Death5.png");
 
   genieAttack = loadAnimation("./Genie/Flight1.png", "./Genie/Attack1.png", "./Genie/Attack2.png", "./Genie/Attack3.png", "./Genie/Attack4.png");
-  genieDeath = loadAnimation("./Genie/Death1.png", "./Genie/Death2.png", "./Genie/Death3.png", "./Genie/Death4.png", "./Genie/Death5.png");
+  genieDeath = loadAnimation("./Genie/Death1.png", "./Genie/Death2.png", "./Genie/Death3.png", "./Genie/Death4.png");
 }
 
 function setup() {
